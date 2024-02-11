@@ -3,20 +3,12 @@ import org.w3c.dom.ls.LSOutput;
 public class Main {
     public static void main(String[] args) {
         //task-1 (dz-5)
-//        Book solaris = new Book("Solaris", new Book.Author("Stanislaw", "Lem"), 1961);
-        Book solaris = new Book();
-        solaris.setAuthor(new Book.Author("Stanislaw", "Lem"));
-        solaris.setBookTitle("Solaris");
-        solaris.setYearPublicationBook(1961);
+        Book solaris = new Book("Solaris", new Book.Author("Stanislaw", "Lem"), 1961);
         solaris.checkNameAuthor(solaris.getAuthor());
         System.out.println(solaris);
         System.out.println(solaris.checkNameAuthor(solaris.getAuthor()));
 
-//        Book trainspotting = new Book("Trainspotting", new Book.Author("Irvine", "Welsh"), 1993);
-        Book trainspotting = new Book();
-        trainspotting.setAuthor(new Book.Author("Irvine", "Welsh"));
-        trainspotting.setBookTitle("Trainspotting");
-        trainspotting.setYearPublicationBook(1993);
+        Book trainspotting = new Book("Trainspotting", new Book.Author("Irvine", "Welsh"), 1993);
         trainspotting.checkNameAuthor(solaris.getAuthor());
         System.out.println(trainspotting);
         System.out.println(trainspotting.checkNameAuthor(trainspotting.getAuthor()));
