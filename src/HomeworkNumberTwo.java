@@ -4,6 +4,7 @@ public class HomeworkNumberTwo {
     static void doFirstHomework() {
         /**
          * Ger
+         *
          */
         // Задание-1
         byte circlesOfHell = 9;
