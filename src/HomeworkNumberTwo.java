@@ -2,6 +2,9 @@ import java.util.Random;
 
 public class HomeworkNumberTwo {
     static void doFirstHomework() {
+        /**
+         * Ger
+         */
         // Задание-1
         byte circlesOfHell = 9;
         System.out.println("Значение переменной circlesOfHell с типом byte = " + circlesOfHell);
